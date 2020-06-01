@@ -59,7 +59,7 @@
       <h2>connect()</h2>
       <p>Établis une connection avec le drone.</p>
       <h2>stream()</h2>
-      <p>Active le flux de données avec le drone, pour recevoir des informations tel que la batterie du drone, la températures, etc.</p>
+      <p>Active le flux de données avec le drone, pour recevoir des informations tel que la batterie du drone, la température, etc.</p>
       <h2>fluxvideo()</h2>
       <p>Renvoie le flux vidéo du drone.</p>
       <h2>sendcommand()</h2>
@@ -67,9 +67,9 @@
       <h2>batterie()</h2>
       <p>Renvoie le pourcentage de batterie du drone.</p>
       <h2>start()</h2>
-      <p>Se connecte avec le drone (connect()), commence l'échange de données (stream()) et initialise le loop vidéo (update()) qui va se répéter 24 fois pr seconde.</p>
+      <p>Se connecte avec le drone (connect()), commence l'échange de données (stream()) et initialise le loop vidéo (update()) qui va se répéter 24 fois par seconde.</p>
       <h2>update()</h2>
-      <p>Capture le frame du drone (fluxvideo()), affiche la batterie (batterie()), cherche des visages sur le frame capturé et renvoie les coordonnées (sendcommand()), transfomre le frame en texture Kivy et le renvoie vers l'intreface graphique.</p>
+      <p>Capture le frame du drone (fluxvideo()), affiche la batterie (batterie()), cherche des visages sur la frame capturée et renvoie les coordonnées (sendcommand()), transforme la frame en texture Kivy et la renvoie vers l'intreface graphique.</p>
       <h2>take_photo()</h2>
       <p>Prends une photo, la compresse en jpeg et la sauvegarde sur le dossier gallerie. Les noms des images correspondent à la date précise à laquelle elles ont été prises.</p>
       <h2>takeoff()</h2>
@@ -87,7 +87,7 @@
       <p>Aligne le drone/visage dans l'axe z (distance avec le visage ≈ 1.5m).</p>
       <h1>Classes</h1>
       <h2>sManager</h2>
-      <p>Gère toutes les fenêtre de l'App.</p>
+      <p>Gère toutes les fenêtres de l'App.</p>
       <h2>ScreenOne</h2>
       <p>Écran d'accueil.</p>
       <h2>ScreenTwo</h2>
